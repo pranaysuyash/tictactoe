@@ -32,7 +32,7 @@ function selectGameField(event) {
   const winnerId = checkForGameOver();
   currentRound++;
   switchPlayer();
-  // console.log(currentRound);
+  console.log(currentRound);
 }
 
 function checkForGameOver() {
